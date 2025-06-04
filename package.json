@@ -3,10 +3,13 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://mt1230515-maths.github.io/BHAVANI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
